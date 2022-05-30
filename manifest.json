@@ -1,0 +1,24 @@
+{
+  "name": "Check Automate",
+  "description": "Tired of forgetting to check every time? Don't worry, my extension can check for you!",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "/icon/click.png",
+    "32": "/icon/click.png",
+    "128": "/icon/click.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/icon/click.png",
+      "32": "/icon/click.png",
+      "48": "/icon/click.png",
+      "128": "/icon/click.png"
+    }
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs"]
+}
